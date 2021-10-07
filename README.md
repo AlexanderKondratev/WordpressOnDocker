@@ -17,12 +17,15 @@ curl -L https://github.com/docker/compose/releases/download/1.21.2/docker-compos
 chmod +x /usr/local/bin/docker-compose
 
 #Then create project directory
-mkdir wordpress && cd wordpress
-#In project directory create directory for nginx configuration file
-mkdir nginx-conf
-#Then put this config in nginx-conf/nginx.conf
+#mkdir wordpress && cd wordpress
 
-server {
+#In project directory create directory for nginx configuration file 
+#mkdir nginx-conf
+
+#Then put this config in nginx.conf
+
+
+server  {
         listen 80;
         listen [::]:80;
         server_name example.com www.example.com;
