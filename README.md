@@ -1,6 +1,6 @@
 # WordpressOnDocker
 
-# Install Docker
+Install Docker
 ```
 apt update
 apt install apt-transport-https ca-certificates curl software-properties-common
@@ -11,7 +11,7 @@ curl -O https://download.docker.com/linux/debian/dists/buster/pool/stable/amd64/
 apt install ./containerd.io_1.4.3-1_amd64.deb
 apt install docker-ce
 ```
-# After install we need to check status of docker daemon status
+After install we need to check status of docker daemon status
 ```
 systemctl status docker
 ```
