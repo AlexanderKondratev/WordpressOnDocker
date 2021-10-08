@@ -75,3 +75,4 @@ server  {
         }
 }
 ```
+#Important notice! You need to change example.com into your domain. I find free domain in http://www.freenom.com/en/index.html
