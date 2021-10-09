@@ -1,6 +1,6 @@
 # WordpressOnDocker
 
-# Work environment
+Work environment
 ```
 - Docker version 20.10.9, build c2ea9bc
 - Docker-Compose version 1.21.2, build a133471 
