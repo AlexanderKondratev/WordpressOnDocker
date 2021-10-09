@@ -130,7 +130,7 @@ services:
     environment:
       - WORDPRESS_DB_HOST=db:3306
       - WORDPRESS_DB_USER=$MYSQL_USER
-      - WORDPRESS_DB_PASSWORD=$MYSQL_PASSWORD
+https://github.com/AlexanderKondratev/WordpressOnDocker      - WORDPRESS_DB_PASSWORD=$MYSQL_PASSWORD
       - WORDPRESS_DB_NAME=wordpress
     volumes:
       - wordpress:/var/www/html
@@ -313,7 +313,7 @@ services:
     restart: unless-stopped
     ports:
       - "80:80"
-      - "443:443"
+      - "443:443"https://github.com/AlexanderKondratev/WordpressOnDocker
     volumes:
       - wordpress:/var/www/html
       - ./nginx-conf:/etc/nginx/conf.d
@@ -368,3 +368,7 @@ Edit crontab file
 ```
 00 12 * * * /home/sammy/wordpress/ssl_renew.sh >> /var/log/cron.log 2>&1
 ```
+Few words about mail on wordpress
+I use yandex mail for domain and wordpress plugin WP Mail SMTP
+I create user in yandex for domain kondratevwordpress.ru
+
